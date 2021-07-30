@@ -1,0 +1,50 @@
+#my-responsive-menu {
+    margin-top: 20px;
+    height: 50px;
+}
+#my-responsive-menu > ul{
+    
+    padding: 0px;
+    
+    
+    background-color: lightgray;
+    
+    
+    text-align: center;
+}
+#my-responsive-menu> ul> li {
+    display: inline-block;
+    height: 30px;
+    margin: 10px 10px;
+    border: 2px black solid;
+    list-style: none;
+    width: 100px;
+}
+#my-responsive-menu> ul> li a {
+    margin: 5% 0px 0px 0px;
+    display: inline-block;
+}
+#my-responsive-menu > ul > li:nth-child(5) {
+    position: relative;
+
+
+}
+
+#submenu-services {
+    position: absolute;
+    display: none;
+    left: 0px;
+    top: 30px;
+}
+#my-responsive-menu > ul > li:nth-child(5):hover #submenu-services {
+    position: absolute;
+    display: block;
+    border-left: green solid 5px;
+    list-style: none;
+    padding: 0px;
+    background-color: beige;
+}
+#submenu-services li{
+    margin: 20px;
+
+}

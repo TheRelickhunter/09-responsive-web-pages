@@ -1,0 +1,26 @@
+
+@media (max-width:720px) {
+    #my-responsive-menu> ul> li {
+        display: block;
+        margin: 20px auto 0px auto;
+    text-align: center;
+    
+    }
+    header {
+        position:static;
+        height: 50vh;
+    }
+    aside {
+        display: none;
+    }
+    .spalla-notizie {
+        float: none;
+        margin: 20px auto 0px auto;
+        width: 75vw;
+    }
+    .notizie-prima-pagina {
+        float: none;
+        margin: 20px auto 0px auto;
+        width: 75vw;
+    }
+}

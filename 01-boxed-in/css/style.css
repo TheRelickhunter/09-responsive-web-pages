@@ -1,0 +1,90 @@
+#content {
+width: 100vw;
+}
+.imgs {
+        
+ display: none;       
+}
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 0px) {
+#img1 {
+    display: none;
+}
+    #img0 {
+        display: block;
+        margin: 0px auto;
+        height: 100px;
+        width: 100px; 
+    }
+}
+
+@media (min-width: 576px) {
+    #content {
+        background-color: rgb(255, 143, 143);
+
+    }
+    #img1 {
+        display: block;
+        margin: 0px auto;
+        height: 100px;
+        width: 100px;
+    }
+    #img0{
+        display: none;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #content {
+        background-color: rgb(255, 123, 0);
+
+    }
+    #img3 {
+        display: block;
+        margin: 0px auto;
+        height: 100px;
+        width: 100px;
+    }
+    #img1{
+        display: none;
+    }
+    #img0{
+        display: none;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #content {
+        background-color: rgb(216, 184, 0);
+    }
+    #img3{
+        display: none;
+    }
+    #img4 {
+        display: block;
+        margin: 0px auto;
+        height: 100px;
+        width: 100px;
+    }
+    #img0{
+        display: none;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #img4 {
+        display: none;
+    }
+    #img5 {
+        display: block;
+        margin: 0px auto;
+        height: 100px;
+        width: 100px;
+    }
+    #img0{
+        display: none;
+    }
+}
